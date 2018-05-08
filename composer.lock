@@ -1,0 +1,94 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ae87bd8abd199feefbd91b388db7ca43",
+    "packages": [
+        {
+            "name": "youshido/graphql",
+            "version": "v1.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Youshido/GraphQL.git",
+                "reference": "a15ed4fec3ab2dccccd8697143e31f9bca6e9dc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Youshido/GraphQL/zipball/a15ed4fec3ab2dccccd8697143e31f9bca6e9dc1",
+                "reference": "a15ed4fec3ab2dccccd8697143e31f9bca6e9dc1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5,<8.0-DEV"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Youshido\\GraphQL\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandr Viniychuk",
+                    "email": "a@viniychuk.com"
+                },
+                {
+                    "name": "Portey Vasil",
+                    "email": "portey@gmail.com"
+                }
+            ],
+            "description": "Pure PHP GraphQL",
+            "time": "2018-02-06T16:21:56+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "dxw/phar-install",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dxw/phar-install.git",
+                "reference": "ab2553e63a26e11dd11fb9ba176511d688643ba0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dxw/phar-install/zipball/ab2553e63a26e11dd11fb9ba176511d688643ba0",
+                "reference": "ab2553e63a26e11dd11fb9ba176511d688643ba0",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/phar-install"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tom Adams",
+                    "email": "tom@dxw.com",
+                    "homepage": "http://dxw.com"
+                }
+            ],
+            "homepage": "https://github.com/dxw/phar-install",
+            "time": "2018-01-24T18:52:13+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
